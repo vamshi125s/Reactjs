@@ -1,0 +1,60 @@
+React is mainly used to create single page application
+
+what is virtual dom:
+- Virtual dom is a representation of a UI which is kept in a memeory later synced
+with real DOM with the help of library called "ReactDOM".
+
+- The updation of resal dom with virtual DOM.
+- the entire process of updating the realDOM with help of a VDOM is called as "Reconcialtion".
+
+JSX:-
+----
+- JSX stands for Javascript and XML
+- JSX is a Javascript syntax extension used to create used to create HTml-like markup in the React
+- Actual way to create a element in react is by using a method called as,
+  - 
+
+- JSX is not a part of react but recommended by the developers
+
+Rules of JSX:-
+------------
+1. Every element irrespective of paired/unpaired tag both must be closed.
+2. more than one jsx element is used then they must wrapped with one parent
+
+JSX expression:-
+---------------
+
+- Jsx expression is used to call the variable, mathematical expression inside the element.
+syntax:- <h1>{variable/expression}</h1>
+
+components:-
+-----------
+- components are the files/modules which consist of js related logics which can be reuse.
+1.class based components(CBC)
+2.Functional based components(FBC)
+
+1.class based components:-
+------------------------
+-CBC is similar to javascript es6 class,
+syntax:-
+class person{
+    constructor(name,age){
+        this.name=name;
+        this.age=age;
+    }
+}
+
+class child extends person{
+    constructor(name,age,city){
+        super(name,age);
+        this.city=city;
+    }
+}
+
+syntax:- class App extends from React.component{
+    render(){
+        return(
+            //jsx
+        )
+    }
+}
