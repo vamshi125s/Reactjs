@@ -51,13 +51,38 @@
 
 // props
 //**********
+// import React, { Component } from 'react'
+// import FBCPropEx from './props/FBCPropEx'
 
-import React, { Component } from 'react'
+// export default class App extends Component {
+//   render() {
+//     return (
+//       <div>
+//         {/* <CBCPropEx
+//         username="Vamshi"
+//         age={20}
+//         hobbies={["Playing","Reading books","Stock-Marketing"]}
+//         address={{city:"Sircilla",area:"Gandhinagar"}}
+//         sendFun={function(){alert("Hi i am vamshi")}}
+//         /> */}
+//         <FBCPropEx
+//         username="Raju"
+//         isMarried={true}
+//         hobbies={["Reading","Eating","Sleeping"]}
+//         />
+//       </div>
+//     )
+//   }
+// }
 
-export default class App extends Component {
-  render() {
-    return (
-      <div>App</div>
-    )
-  }
+//props children
+
+import React from 'react'
+
+const App = () => {
+  return (
+    <div>App</div>
+  )
 }
+
+export default App

@@ -62,4 +62,6 @@ syntax:- class App extends from React.component{
 Props:-
 -----
 - props is nothing but a properties similar to HTml attributes.
-- props is an object is used to exchange information or data from parent component to child component
+- props is an object is used to exchange information or data from 
+    parent component to child component.
+-
