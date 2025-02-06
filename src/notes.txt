@@ -64,4 +64,16 @@ Props:-
 - props is nothing but a properties similar to HTml attributes.
 - props is an object is used to exchange information or data from 
     parent component to child component.
--
+
+Functional component:-
+---------------------
+- By default functional component stateless because there is no state object
+
+Hooks:-
+------
+- Hooks is nothing but a functions which implement all the features of class component
+
+basics hooks are:-
+1.useState()
+2.useEffect()
+3.useContext()

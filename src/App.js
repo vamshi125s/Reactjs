@@ -77,21 +77,34 @@
 
 //props children
 
-import React from "react";
-import Child1 from "./props/Child1";
+// import React from "react";
+// import Child1 from "./props/Child1";
 
+// const App = () => {
+//   return (
+//     <div>
+//       App
+//       {/*App
+//       <PropChildEx num={1000}>
+//         <h1>this is data coming from props children</h1>
+//         <SubChild />
+//       </PropChildEx>*/}
+//       <Child1 university="Malla Reddy University" />
+//     </div>
+//   );
+// };
+
+// export default App;
+
+import React from 'react';
+import FBCStateEx from './stateexample/FBCStateEx';
+// import CBCStateEx from './stateexample/CBCStateEx';
 const App = () => {
   return (
     <div>
-      App
-      {/*App
-      <PropChildEx num={1000}>
-        <h1>this is data coming from props children</h1>
-        <SubChild />
-      </PropChildEx>*/}
-      <Child1 university="Malla Reddy University" />
+      {/* <CBCStateEx/> */}
+      <FBCStateEx/>
     </div>
-  );
-};
-
-export default App;
+  )
+}
+export default App;
