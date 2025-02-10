@@ -108,4 +108,17 @@
 //   )
 // }
 // export default App
+import React from 'react';
+// import MyForm from './MyForm';
+import UseEffectEx from './UseEffectEx';
 
+function App() {
+  return (
+    <div className="App">
+     {/* <MyForm></MyForm> */}
+        <UseEffectEx/>
+     </div>
+  );
+}
+
+export default App;
